@@ -29,8 +29,15 @@ li {
   left: 50%;
   transform: translate(-50%);
 }
+.separator.level2 {
+  width: 15%;
+}
 
 body *:not(li) {
   display: flex;
   justify-content: center;
+}
+
+.repository {
+  display: block;
 }
