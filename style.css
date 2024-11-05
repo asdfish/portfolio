@@ -25,6 +25,9 @@ li {
   height: 0px;
   border: 1px solid var(--accent-contrast);
 
+  margin-top: 20px;
+  margin-bottom: 20px;
+
   position: relative;
   left: 50%;
   transform: translate(-50%);
@@ -40,4 +43,18 @@ body *:not(li) {
 
 .repository {
   display: block;
+}
+
+img {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
 }
